@@ -1,0 +1,9 @@
+/* Your code logic looks correct:
+Ctrl+Z → signal_handler(SIGTSTP) → insert_first(pid, input_string)
+
+jobs → print_jobs() → shows linked list
+
+bg → bg_cmd() → kill(job->pid, SIGCONT) → resumes job
+
+fg → fg_cmd() → kill(pid, SIGCONT) → waitpid() → brings to foreground
+*/
