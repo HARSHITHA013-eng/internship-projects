@@ -1,3 +1,4 @@
+
 /* Common file for server & client*/
 
 #ifndef TFTP_H
@@ -19,7 +20,7 @@ typedef enum
     ACK = 4,  // Acknowledgment
     ERROR = 5 // Error Packet
 } tftp_opcode;
-
+// i have changed here //
 // TFTP Packet Structure
 typedef struct
  {
